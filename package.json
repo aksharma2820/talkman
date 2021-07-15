@@ -1,0 +1,16 @@
+{
+  "name": "talker",
+  "version": "1.0.0",
+  "description": "A simple, lightweight and flexible communication API. Define your own mechanism to send/receive your messages and leave the rest to us",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "transport",
+    "communications",
+    "messages"
+  ],
+  "author": "Akshat Sharma, Shardul Malik",
+  "license": "ISC"
+}
