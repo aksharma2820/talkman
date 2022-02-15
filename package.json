@@ -1,7 +1,7 @@
 {
-	"name": "vartalap",
-	"version": "1.0.1",
-	"repository": "https://github.com/aksharma2820/vartalap",
+	"name": "talkman",
+	"version": "1.0.2",
+	"repository": "https://github.com/aksharma2820/talkman",
 	"description": "A simple, lightweight and flexible communication API. Define your own mechanism to send/receive your messages and leave the rest to us",
 	"main": "index.js",
 	"scripts": {
@@ -16,7 +16,4 @@
 	  "Shardul Malik <shardulmalik@gmail.com>"
   ],
   "license": "ISC",
-  "publishConfig" : {
-	  "registry":"https://npm.pkg.github.com"
-  }
 }
