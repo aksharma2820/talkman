@@ -1,6 +1,6 @@
-import CA from './lib/ca';
+import Messenger from './lib/main';
 import TransportBrowserWindow from './transports/browser-transport';
 
-export default CA;
+export default Messenger;
 export { TransportBrowserWindow };
 

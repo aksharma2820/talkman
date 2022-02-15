@@ -1,5 +1,5 @@
 {
-  "name": "talker",
+  "name": "talkman",
   "version": "1.0.0",
   "description": "A simple, lightweight and flexible communication API. Define your own mechanism to send/receive your messages and leave the rest to us",
   "main": "index.js",
@@ -11,6 +11,20 @@
     "communications",
     "messages"
   ],
-  "author": "Akshat Sharma, Shardul Malik",
-  "license": "ISC"
+  "author": [
+  	"Akshat Sharma <aksharma.2820@gmail.com>",
+	"Shardul Malik <shardulmalik@yahoo.com>"
+  ],
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aksharma2820/talkman.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aksharma2820/talkman/issues"
+  },
+  "homepage": "https://github.com/aksharma2820/talkman#readme"
 }
