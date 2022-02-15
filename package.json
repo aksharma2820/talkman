@@ -1,6 +1,7 @@
 {
   "name": "vartalap",
   "version": "1.0.1",
+  "repository": "https://github.com/aksharma2820/vartalap",
   "description": "A simple, lightweight and flexible communication API. Define your own mechanism to send/receive your messages and leave the rest to us",
   "main": "index.js",
   "scripts": {
@@ -8,23 +9,11 @@
   },
   "keywords": [
     "transport",
-    "communications",
-    "messages"
+    "communications"
   ],
   "author": [
   	"Akshat Sharma <aksharma.2820@gmail.com>",
 	"Shardul Malik <shardulmalik@gmail.com>"
   ],
   "license": "ISC",
-  "directories": {
-    "lib": "lib"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aksharma2820/talkman.git"
-  },
-  "bugs": {
-    "url": "https://github.com/aksharma2820/talkman/issues"
-  },
-  "homepage": "https://github.com/aksharma2820/talkman#readme"
 }
