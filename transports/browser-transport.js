@@ -9,8 +9,6 @@ class TransportBrowserWindow {
 		if (!config.targetWindow)
 			throw new Error('mandatory target missing');
 
-
-
 		this.config       = config;
 		this.sourceWindow = config.sourceWindow;
 		this.targetWindow = config.targetWindow;
@@ -20,14 +18,15 @@ class TransportBrowserWindow {
 
 	set onMessage (listener) {
 		this.listener = listener;
-		this.addEventListener();
+
+		this._initializeListener();
 	}
 
 	get onMessage () {
 		return this.listener;
 	}
 
-	addEventListener () {
+	_initializeListener () {
 		let self = this;
 		this.sourceWindow.addEventListener ("message", (ev) => {
 			self.onMessage(ev.data);
