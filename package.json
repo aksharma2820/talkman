@@ -1,19 +1,22 @@
 {
-  "name": "vartalap",
-  "version": "1.0.1",
-  "repository": "https://github.com/aksharma2820/vartalap",
-  "description": "A simple, lightweight and flexible communication API. Define your own mechanism to send/receive your messages and leave the rest to us",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "transport",
-    "communications"
+	"name": "vartalap",
+	"version": "1.0.1",
+	"repository": "https://github.com/aksharma2820/vartalap",
+	"description": "A simple, lightweight and flexible communication API. Define your own mechanism to send/receive your messages and leave the rest to us",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"transport",
+		"communications"
   ],
   "author": [
-  	"Akshat Sharma <aksharma.2820@gmail.com>",
-	"Shardul Malik <shardulmalik@gmail.com>"
+	  "Akshat Sharma <aksharma.2820@gmail.com>",
+	  "Shardul Malik <shardulmalik@gmail.com>"
   ],
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig" : {
+	  "registry":"https://npm.pkg.github.com"
+  }
 }
