@@ -1,6 +1,6 @@
 {
 	"name": "talkman",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"repository": "https://github.com/aksharma2820/talkman",
 	"description": "A simple, lightweight and flexible communication API. Define your own mechanism to send/receive your messages and leave the rest to us",
 	"main": "index.js",
