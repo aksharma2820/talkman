@@ -1,6 +1,13 @@
 # talkman
-A simple, lightweight and flexible communication API. Define your own mechanism to send/receive your messages and leave the rest to us
-(to be continued...)
+A simple framework to turn any event based (fire and forget) channel into asyncronous `request`/`response` based channel.
+Examples - `Websockets`, `window.postMessage` etc
+
+Users can use the pre-bundled transports and logic OR define their own custom transport.
+
+### Current pre bundled transports 
+ - `window.postMessage` 
+   - API for browser/iframe communication etc
+   - Users can do `request`/`response` type communication out of the box
 
 
 
@@ -59,3 +66,8 @@ messenger.sendReq (req).then (
 )
 
 ```
+
+
+#### TODO
+ - Add example of defining and using custom `Transport`
+ - Explain `INFO` and `REQ`/`RES` paradigm for user understanding
